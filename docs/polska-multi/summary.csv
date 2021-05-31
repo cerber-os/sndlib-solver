@@ -1,0 +1,12 @@
+Parameter,Value
+Epochs count,50000
+Population size,8
+Mutation factor,0.18
+Single mode,False
+Modularity factor,1
+Network size (nodes),12
+Network size (links),18
+Network size (demands),66
+Best score,678.2626954494212
+Total modules used,66
+

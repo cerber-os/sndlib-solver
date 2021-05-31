@@ -175,11 +175,11 @@ class GeneticAlgorithm:
                                  ['Demand name'] + [f'Link_{i}' for i in range(8)],
                                  [[name] + paths[name] for name in demandsNames]
                                  )
-
-            bestResult.saveToXML(os.path.join(visualizer.outputDir, 'solution.xml'))
         else:
             visualizer.outputCSV('link_per_demand.csv',
                                  ['Demand name', '0'], [['Not applicable...', '0']])
+
+        bestResult.saveToXML(os.path.join(visualizer.outputDir, 'solution.xml'))
 
         visualizer.outputCSV('summary.csv',
                              ['Parameter', 'Value'],

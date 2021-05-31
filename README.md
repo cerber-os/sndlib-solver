@@ -71,7 +71,7 @@ Script `tools/outputToXlsx.py` can be used to export results to Excel worksheet 
 
 | Graph view | Cost function |
 | -- | -- |
-| ![graph_view](docs/network_modules.png) | ![cost func2](docs/objfunc.png) |
+| ![graph_view](docs/polska-single/network_modules.png) | ![cost func2](docs/polska-single/objfunc.png) |
 
 Command used to acquire the above results:
 ```bash
